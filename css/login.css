@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'High Pixel 7';
+    src: url(../fonts/high_pixel-7.ttf) format('truetype');
+}
+
+body {
+    font-family: 'High Pixel 7';
+    overflow: hidden;
+    background: url('../images/back1.gif'); background-position: center;  background-repeat:no-repeat; background-size:cover;
+}
+
+#menu{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.boton{
+    height: 60px;
+    width: 100%;
+    opacity: 0.9;
+}
+
+form{
+    background-color:white;
+    border-radius:5px;
+    padding: 1em;
+    opacity: 0.7;
+}
+
+#loginForm, #registerForm{
+    position: absolute;
+    top:35%;
+    left:35%;
+    display: none;
+    
+}
+
+/* preloader */
+#preloader {
+    position: fixed;
+    top:0; left:0;
+    right:0; bottom:0;
+    background: #000;
+    z-index: 100;
+}
+#loader {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:50%; top:50%;
+    background: url(../images/loader.gif) no-repeat center 0;
+    margin:-50px 0 0 -50px;
+}

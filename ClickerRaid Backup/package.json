@@ -1,0 +1,13 @@
+{
+  "name": "ClickerRaid-Multiplayer",
+  "version": "0.1.0",
+  "description": "ClickerRaid Multiplayer",
+  "main": "newServer.js",
+  "repository": "",
+  "author": "Juan carlos y Alejandro",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14",
+  },
+}
